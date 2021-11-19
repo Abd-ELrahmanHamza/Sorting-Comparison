@@ -17,20 +17,16 @@ void hybrid_insertion_sort(vector<int> &v, int left, int right) {
 }
 
 void hybrid_sort(vector<int> &v, int left, int right) {
-    while (left < right) {
-        if (right - left < 10) {
-            hybrid_insertion_sort(v, left, right);
-            break;
-        } else {
-            int pivot = randomized_partition(v, left, right);
-            if (pivot - left < right - pivot) {
-                hybrid_insertion_sort(v, left, pivot - 1);
-                left = pivot + 1;
-            } else {
-                hybrid_insertion_sort(v, pivot + 1, right);
-                right = pivot - 1;
-            }
+    if (left < right) {
+        if(right-left<=20)
+            hybrid_insertion_sort(v,left,right);
+        else
+        {
+            int part = randomized_partition(v, left, right);
+            randomized_quick_sort(v, left, part - 1);
+            randomized_quick_sort(v, part + 1, right);
         }
+
     }
 }
 
