@@ -152,6 +152,30 @@ sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Solution.dir\build.make CMakeFiles/Solution.dir/sort.cpp.s
 .PHONY : sort.cpp.s
 
+sort2.obj: sort2.cpp.obj
+.PHONY : sort2.obj
+
+# target to build an object file
+sort2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Solution.dir\build.make CMakeFiles/Solution.dir/sort2.cpp.obj
+.PHONY : sort2.cpp.obj
+
+sort2.i: sort2.cpp.i
+.PHONY : sort2.i
+
+# target to preprocess a source file
+sort2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Solution.dir\build.make CMakeFiles/Solution.dir/sort2.cpp.i
+.PHONY : sort2.cpp.i
+
+sort2.s: sort2.cpp.s
+.PHONY : sort2.s
+
+# target to generate assembly for a file
+sort2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Solution.dir\build.make CMakeFiles/Solution.dir/sort2.cpp.s
+.PHONY : sort2.cpp.s
+
 stress_test.obj: stress_test.cpp.obj
 .PHONY : stress_test.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... sort.obj
 	@echo ... sort.i
 	@echo ... sort.s
+	@echo ... sort2.obj
+	@echo ... sort2.i
+	@echo ... sort2.s
 	@echo ... stress_test.obj
 	@echo ... stress_test.i
 	@echo ... stress_test.s

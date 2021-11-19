@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Solution.dir/sort.cpp.obj"
+  "CMakeFiles/Solution.dir/sort2.cpp.obj"
   "CMakeFiles/Solution.dir/stress_test.cpp.obj"
   "Solution.exe"
   "Solution.exe.manifest"

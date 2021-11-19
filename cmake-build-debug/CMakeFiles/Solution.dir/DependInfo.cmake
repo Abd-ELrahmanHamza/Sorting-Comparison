@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/sort.cpp" "D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/cmake-build-debug/CMakeFiles/Solution.dir/sort.cpp.obj"
+  "D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/sort2.cpp" "D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/cmake-build-debug/CMakeFiles/Solution.dir/sort2.cpp.obj"
   "D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/stress_test.cpp" "D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/cmake-build-debug/CMakeFiles/Solution.dir/stress_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
