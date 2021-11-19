@@ -22,7 +22,7 @@ long long selectionSortTime(vector<int> &data) {
     auto start = high_resolution_clock::now();
     selection_sort(data);
     auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(stop - start);
+    auto duration = duration_cast<milliseconds>(stop - start);
     return duration.count();
 }
 
@@ -30,7 +30,7 @@ long long insertionSortTime(vector<int> &data) {
     auto start = high_resolution_clock::now();
     insertion_sort(data);
     auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(stop - start);
+    auto duration = duration_cast<milliseconds>(stop - start);
     return duration.count();
 }
 
@@ -38,7 +38,7 @@ long long mergeSortTime(vector<int> &data) {
     auto start = high_resolution_clock::now();
     merge_sort(data, 0, (int) data.size() - 1);
     auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(stop - start);
+    auto duration = duration_cast<milliseconds>(stop - start);
     return duration.count();
 }
 
@@ -46,14 +46,14 @@ long long quickSortTime(vector<int> &data) {
     auto start = high_resolution_clock::now();
     randomized_quick_sort(data, 0, (int)data.size() - 1);
     auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(stop - start);
+    auto duration = duration_cast<milliseconds>(stop - start);
     return duration.count();
 }
 long long hybridSortTime(vector<int> &data) {
     auto start = high_resolution_clock::now();
     hybrid_sort(data, 0, (int)data.size() - 1);
     auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(stop - start);
+    auto duration = duration_cast<milliseconds>(stop - start);
     return duration.count();
 }
 
