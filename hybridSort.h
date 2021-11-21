@@ -1,8 +1,6 @@
 #ifndef SOLUTION_HYBRIDSORT_H
 #define SOLUTION_HYBRIDSORT_H
 
-#include "quickSort.h"
-#include "insertionSort.h"
 
 void hybrid_insertion_sort(vector<int> &v, int left, int right) {
     for (int j = left; j <= right; j++) {
@@ -15,16 +13,33 @@ void hybrid_insertion_sort(vector<int> &v, int left, int right) {
         v[i + 1] = key;
     }
 }
+int hybrid_partition(vector<int> &v, int left, int right) {
+    int pivot = v[right];
+    int i = left - 1;
+    for (int j = left; j <= right - 1; j++) {
+        if (v[j] <= pivot) {
+            i++;
+            swap(v[i], v[j]);
+        }
+    }
+    swap(v[i + 1], v[right]);
+    return i + 1;
+}
 
+int hybrid_randomized_partition(vector<int> &v, int left, int right) {
+    int i = left + (rand() % (right - left + 1));
+    swap(v[right], v[i]);
+    return hybrid_partition(v, left, right);
+}
 void hybrid_sort(vector<int> &v, int left, int right) {
     if (left < right) {
         if(right-left<=20)
             hybrid_insertion_sort(v,left,right);
         else
         {
-            int part = randomized_partition(v, left, right);
-            randomized_quick_sort(v, left, part - 1);
-            randomized_quick_sort(v, part + 1, right);
+            int part = hybrid_randomized_partition(v, left, right);
+            hybrid_sort(v, left, part - 1);
+            hybrid_sort(v, part + 1, right);
         }
 
     }

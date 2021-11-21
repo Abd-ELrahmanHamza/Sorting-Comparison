@@ -7,6 +7,8 @@
 //#include "selectionSort.h"
 //#include "mergeSort.h"
 //#include "hybridSort.h"
+//#include "quickSort.h"
+//#include "insertionSort.h"
 //using namespace std;
 //void print_vector(vector<int>v)
 //{
@@ -81,10 +83,10 @@
 //}
 //int main()
 //{
-//    stress_test(insertion_sort);
-//    stress_test(selection_sort);
-//    stress_test_merge_quick(merge_sort);
-//    stress_test_merge_quick(randomized_quick_sort);
+////    stress_test(insertion_sort);
+////    stress_test(selection_sort);
+////    stress_test_merge_quick(merge_sort);
+////    stress_test_merge_quick(randomized_quick_sort);
 //    stress_test_merge_quick(hybrid_sort);
 //    return 0;
 //}

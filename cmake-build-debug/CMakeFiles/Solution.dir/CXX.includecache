@@ -7,10 +7,6 @@
 #IncludeRegexTransform: 
 
 D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/hybridSort.h
-quickSort.h
-D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/quickSort.h
-insertionSort.h
-D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/insertionSort.h
 
 D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/insertionSort.h
 iostream
@@ -79,4 +75,8 @@ mergeSort.h
 D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/mergeSort.h
 hybridSort.h
 D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/hybridSort.h
+quickSort.h
+D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/quickSort.h
+insertionSort.h
+D:/Material/2nd CMP/First term/Algorithms/Assignments/2/Solution/insertionSort.h
 

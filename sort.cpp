@@ -3,9 +3,9 @@
 #include <fstream>
 #include <vector>
 #include <string>
-//#include "insertionSort.h"
+#include "insertionSort.h"
 #include "selectionSort.h"
-//#include "quickSort.h"
+#include "quickSort.h"
 #include "mergeSort.h"
 #include "readPrintFile.h"
 #include "hybridSort.h"
