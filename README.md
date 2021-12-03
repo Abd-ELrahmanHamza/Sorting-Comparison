@@ -31,7 +31,7 @@ Hybrid	    |0    |0      |1       |6       | 9     |15     |85
 
 ![Random data graph](Sorted.png)
 
-## how is hybrid sorting algorithm created?
+## Hybrid sorting algorithm
 
 From the running time of all algorithms, I found that randomized quick sort is the best sorting algorithm at all values of N except for insertion sort in sorted data and some other sorting algorithms has the same running time as that of randomized quick sort at some values of N.
 
