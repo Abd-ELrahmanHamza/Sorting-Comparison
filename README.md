@@ -2,9 +2,9 @@
 
 In this assignment, it is required to implement some sorting algorithms, evaluate the performance of these algorithms and test their performance on large datasets. For this task, I will use C++ to implement the sorting algorithms. After that, I will test my code using randomly generated large datasets.
 
-## Random data
+## Random data running time
 
-Algorithm\time(miliseconds)   |1000 | 5000 | 10000 | 50000 | 75000 | 100000 | 500000
+Algorithm\data size   |1000 | 5000 | 10000 | 50000 | 75000 | 100000 | 500000
 ----- | ----- | ----- | ------ | ----- | ------ | -----| ----  
 Selection |	2 |	52 | 205 | 5086 | 11608 | 20650 | -
 Insertion| 2 | 38| 155| 3859| 8694 | 15256| -
@@ -12,9 +12,9 @@ Merge    | 0 | 2 | 5  | 31  | 47   | 63   | 356
 Quick    | 0 | 0 | 1  | 12  | 20   | 26   | 147
 Hybrid   | 0 | 0 | 2  | 11  | 17   | 25   | 136
 
-## Sorted data
+## Sorted data running time
 
-Algorithm\time(miliseconds)|1000 |5000   |10000   |50000   |75000  |100000 |500000
+Algorithm\data size |1000 |5000   |10000   |50000   |75000  |100000 |500000
 ----- | ----- | ----- | ------ | ----- | ------ | -----| ----  
 Selection	|2    |56     |205     |5215    |11549  |20485  |-
 Insertion	|0    |0      |0       |0       | 0     |0      |4
